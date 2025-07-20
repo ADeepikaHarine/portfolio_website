@@ -4,10 +4,10 @@ A clean, responsive personal portfolio website built using HTML and CSS. It show
 
 # Project Features
 
-- Fully responsive design (desktop, tablet, and mobile)
+- Fully responsive design
 - Smooth navigation with anchor links
 - About section to introduce myself as a frontend developer
-- 🖼Portfolio/gallery showcasing sample projects
+- Portfolio showcasing sample projects
 - Contact form with name, email, and message input
 - Footer with social media icons (LinkedIn, GitHub, Twitter)
 - Hover, active, and focus effects for interactivity
