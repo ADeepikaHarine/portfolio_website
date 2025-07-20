@@ -1,0 +1,19 @@
+Portfolio Website
+
+What the Project Is About:
+- This project is a personal portfolio website built using HTML and CSS. 
+- It showcases my skills as a frontend developer, highlights sample projects, and provides an easy way for visitors to contact me. 
+- The website includes a homepage, about section, project gallery, and a functional contact form, all styled with responsive design principles.
+
+What I Learned:
+Through this project, I learned how to:
+- Structure a semantic HTML document
+- Style a website using CSS including layout, typography, and media queries
+- Make a responsive design that works on all screen sizes
+- Add interactivity using hover effects and icon integration with Font Awesome
+- Manage version control using Git and deploy the website using GitHub Pages
+
+Challenges I Overcame:
+- One of the main challenges was ensuring the site looked consistent across different devices and screen sizes. 
+- Understanding how to use Flexbox and media queries effectively helped me solve layout issues. 
+- I also faced some initial issues while deploying with GitHub Pages, but resolved them by troubleshooting file structure and configuration.
