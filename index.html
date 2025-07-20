@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ==================== Header ==================== -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== Main Content ==================== -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" style="background: url('banner.jpg') no-repeat center center/cover; color: white; padding: 80px 20px;">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I am a web developer with a passion for creating beautiful and responsive websites.</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate frontend developer focused on building clean and accessible user interfaces using HTML and CSS.
+        I enjoy turning design ideas into functional web pages that look great on all devices.
+        My goal is to write semantic, well-structured code that ensures performance and responsiveness.
+        I continuously explore new layout techniques and stay updated with modern web standards.
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <h2>My Projects</h2>
+      <div class="project-gallery">
+        <div class="project">
+          <p>DIABETES RISK CLASSIFICATION</p>
+          <img src="project1.png" alt="Screenshot of Project 1" />
+          <p>Developed a diabetes risk classification system using multiple ML models with SHAP for
+            explainable AI. Deployed an interactive Streamlit web app for real-time predictions and
+            clinical decision support.</p>
+        </div>
+        <div class="project">
+          <p>INSURANCE MANAGEMENT SYSTEM</p>
+          <img src="project2.png" alt="Screenshot of Project 2" />
+          <img src="project2-1.png" alt="Screenshot of Project 2-1" />
+          <p>Designed and developed a web-based Insurance Management System with secure data
+            handling, real-time claims tracking, and an intuitive interface to enhance customer
+            experience and efficiency.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" onsubmit="alert('Form submitted successfully! (This is a demo)'); return false;">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" aria-label="Enter your full name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" aria-label="Enter your email address" required />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" aria-label="Enter your message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- ==================== Footer ==================== -->
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    <div>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
